@@ -1,0 +1,103 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+  }
+  
+  ul.skills {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.skills li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Testimonial styles */
+  blockquote {
+    font-style: italic;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000;
+  }
+  
+  blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+  }
+  
+  /* Contact form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+  }
+  
+  button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  /* Footer styles */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
