@@ -1,103 +1,261 @@
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  header h1 {
-    font-size: 36px;
-    margin: 0;
-  }
-  
-  header h2 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  /* Main content styles */
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  section h2 {
-    font-size: 24px;
-  }
-  
-  ul.skills {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul.skills li {
-    display: inline-block;
-    margin-right: 10px;
-    padding: 5px;
-    background-color: #000;
-    color: #fff;
-  }
-  
-  /* Testimonial styles */
-  blockquote {
-    font-style: italic;
-    margin: 0;
-    padding: 20px;
-    border: 1px solid #000;
-  }
-  
-  blockquote cite {
-    display: block;
-    margin-top: 10px;
-    font-style: normal;
-  }
-  
-  /* Contact form styles */
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-top: 10px;
-  }
-  
-  input,
-  textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #000;
-  }
-  
-  button[type="submit"] {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #fff;
-    color: #000;
-  }
-  /* Footer styles */
-  footer {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #202124;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.form-container {
+position: relative;
+min-width: 400px;
+min-height: 500px;
+display: flex;
+justify-content: center;
+}
+.image-container {
+position: relative;
+display: flex;
+justify-content: center;
+}
+
+.form {
+position: relative;
+width: 900px;
+height: 100%;
+padding: 20px;
+}
+
+/* Header styles */
+header {
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+main h2{
+  color: #9b9a97;
+  text-transform: uppercase;
+}
+
+.aboutInfo{
+  display: flex;
+  align-items: center;;
+  margin-top: 40px;
+}
+
+.aboutInfo p{
+  padding-left: 25px;
+}
+
+.aboutInfo img{
+  width: 250px;
+  border-radius: 70%;
+}
+
+section {
+  margin-bottom: 100px;
+}
+.content{
+  list-style-type: square;
+}
+
+section li{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+section li::marker {
+  color:#fff;
+  list-style-type: square;
+}
+
+section h2 {
+  font-size: 24px;
+}
+
+section h3 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: all 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.image_content img{
+  max-width: 380px;
+  max-height: 380px;
+  margin: 10px;
+  border-radius: 3%;
+}
+ul.skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.skills li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Testimonial styles */
+blockquote {
+  font-style: italic;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+}
+
+/* #### SKILLS PAGE #### */
+
+.skills > .text{
+  width: 70%;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.skills .row{
+  margin: 1rem 0;
+}
+.skills .item{
+  padding: 0.5rem 0;
+  margin: 0.3rem 0;
+}
+.skills .item-text{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-size: 1.3rem;
+  position: relative;
+}
+.skills .item-text span:last-child{
+  position: absolute;
+}
+.skills .item-text .w-90{
+  margin-left: 85%;
+}
+.skills .item-text .w-75{
+  margin-left: 70%;
+}
+.skills .item-text .w-85{
+  margin-left: 80%;
+}
+.skills .item-text .w-80{
+  margin-left: 75%;
+}
+.skills .item-text .w-70{
+  margin-left: 65%;
+}
+.skills .item-text .w-60{
+  margin-left: 55%;
+}
+.skills .item-text .w-68{
+  margin-left: 63%;
+}
+.progress{
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  height: 16px;
+  width: 100%;
+  background-color: var(--nero);
+  overflow: hidden;
+}
+.progress-bar{
+  background: var(--green);
+  height: 100%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+  width: 90%;
+}
+.progress-bar.w-75{
+  width: 75%;
+}
+.progress-bar.w-85{
+  width: 85%;
+}
+.progress-bar.w-80{
+  width: 80%;
+}
+.progress-bar.w-70{
+  width: 70%;
+}
+.progress-bar.w-60{
+  width: 60%;
+}
+.progress-bar.w-68{
+  width: 68%;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+:root{
+  --poppins: 'Poppins', sans-serif;
+  --sans: 'Open Sans', sans-serif;
+  --green: #6ca373;
+  --black: #111;
+  --nero: #474747;
+  --transition: all 0.4s ease;
+}
+.item-text{
+  font-size: 1.05rem;
+  color: #d0d0d0;
+  line-height: 1.7;
+}

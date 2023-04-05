@@ -4,81 +4,196 @@
     <meta charset="UTF-8">
     <title>DongHwa Lisa Lee - Software Developer</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>Donghwa Lisa Lee</h1>
-      <br />
-      <h2>Software Developer</h2>
-    </header>
-    
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>I graduated from University of Transportation in Korea in 2012 with a degree in computer science. My professional experience includes working as a junior Java web developer for 2 years, maintaining the intranet at the Korean Ministry of Strategy and Finance. I used Oracle, Java, and the Spring Framework extensively in this role, which allowed me to gain deep knowledge of these technologies and build upon my database design and management skills.</p>
+    <section class="image-container">
+      <img src="./bg.png" alt="background image">
+    </section>
+    <section class="form-container">
+      <div class="form">
+        <header>
+          <img src="./branches.png" alt="white branches" width="150px">
+          <h1>Donghwa Lisa Lee</h1>
+          <br />
+          <h2>Software Developer</h2>
+        </header>
+        
+        <main>
+          <section id="about">
+            <h2>About Me ──</h2>
+            <div class="aboutInfo">
+              <img src="./avatar.png" alt="avatar" >
+              <p>I have a degree in computer science and worked as a junior Java web developer for two years. 
+                I gained extensive knowledge of Oracle, Java, and the Spring Framework while maintaining the intranet for the Korean Ministry of Strategy and Finance. 
+                <br /><br />
+                I will graduate from the SSD program in May 2023 and have focused on using dynamic programming languages like JavaScript to manipulate data efficiently.</p>
+            </div>
+          </section>
+          
+          <section id="experience">
+            <h2>Work Experience ──</h2>
+            <ul class="content">
+              <li>
+                <h3>Homestay Coordinator - SWITCanada Ltd, Vancouver, Canada</h3>
+                <p>Jun 2016 – Mar 2020</p>
+                <ul>
+                  <li>Managed students' transition to life in Canada</li>
+                  <li>Prepared business papers</li>
+                  <li>Completed student Homestay placements</li>
+                  <li>Guided and advised students and their host families</li>
+                </ul>
+              </li>
+              <li>
+                <h3>Junior Java Developer - IG Corporation, Daejeon, South Korea </h3>
+                <p>Jan 2013 - Jan 2015</p>
+                <ul>
+                  <li>Collected, organized, and maintained problems</li>
+                  <li>Emulated or reproduced technical problems encountered by users</li>
+                  <li>Communicated electronically and in-person with computer users experiencing difficulties to determine and document problems experienced</li>
+                  <li>Planned, designed, modified, integrated, and tested website-related code</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          
+          <section id="projects">
+            <h2>Projects ──</h2>
+            <ul class="content">
+              <li>
+                <h3>Cake Pactory - BCIT Internal Project</h3>
+                <p>developed a website that sells cakes and allows the user to manage customers and customer orders. Additionally, the admin has the ability to manage cake items, sizes, fillings, shapes, and toppings </p>
+                <div class="image_content">
+                  <img src="./cake-factory.png" alt="Cake Pactory screenshot" >
+                  <img src="./cake-factory-admin.png" alt="Cake Pactory admin screenshot">
+                </div>
+                <p><a href="https://github.com/ceilidh-ashcroft-bcit/CakeFactory" class="cta-button">GitHub →</a></p>
+              </li>
+              <li>
+                <h3>Movie App - React Project</h3>
+                <p>This project is a movie introduction service that gives users access to the extensive TMDB movie library. This indicates that the website has access to a comprehensive database of movies from TMDB, which means that users can browse and explore a variety of movie information, including titles, genres, release dates, and ratings.</p>
+                <div class="image_content">
+                  <img src="./movie-app.png" alt="movie app screenshot" >
+                  <img src="./movie-app-detail.png" alt="movie app screenshot" >
+                </div>
+                <p><a href="https://reactavision.vercel.app/" class="cta-button">React Avision →</a></p>
+              </li>
+              <!-- <li>
+                <h3>Project Name</h3>
+                <p>A brief description of the project.</p>
+                <p><a href="#">Live Demo</a></p>
+              </li> -->
+            </ul>
+          </section>
+          
+          <section id="skills" class = "skills container">
+            <h2>Skills ──</h2>
+            <ul>
+              <li>Languages   : C#, Java, PHP, HTML, CSS, JavaScript, jQuery, SQL, Swift, Python</li>
+              <li>Frameworks  : ASP.NET Core (Web API and MVC), Android, iOS, Angular, Node.js, React</li>
+              <li>Databases   : MS SQL Server, MySQL, MongoDB, CockroachDB</li>
+              <li>Tools       : Amazon Web Services, Photoshop, GitHub</li>
+            </ul>
+            <div class = "row">
+              <div class = "item">
+                <div class = "item-text">
+                  <span>C#</span>
+                  <span class = "w-90">90%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-90"></div>
+                </div>
+              </div>
 
-        <p>I will be graduating from the SSD program in May 2023 and I have focused on using dynamic programming languages such as JavaScript and its frameworks to efficiently manipulate HTML, CSS, and data. I have also developed well-structured object-oriented programs using C#, and data-driven applications with C# and ASP.NET. Additionally, I have experience developing secure websites that manage user profiles, data, and resources in a safe manner for site users and owners, as well as developing mobile applications using cross-platform compatible frameworks.</p>
-      </section>
-      
-      <section id="experience">
-        <h2>Work Experience</h2>
-        <ul>
-          <li>
-            <h3>Homestay Coordinator - SWITCanada Ltd, Vancouver, Canada</h3>
-            <p>Jun 2016 – Mar 2020</p>
-            <ul>
-              <li>Managed students' transition to life in Canada</li>
-              <li>Prepared business papers</li>
-              <li>Completed student Homestay placements</li>
-              <li>Guided and advised students and their host families</li>
-            </ul>
-          </li>
-          <li>
-            <h3>Junior Java Developer - IG Corporation, Daejeon, South Korea </h3>
-            <p>Jan 2013 - Jan 2015</p>
-            <ul>
-              <li>Collected, organized, and maintained problems</li>
-              <li>Emulated or reproduced technical problems encountered by users</li>
-              <li>Communicated electronically and in-person with computer users experiencing difficulties to determine and document problems experienced</li>
-              <li>Planned, designed, modified, integrated, and tested website-related code</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <h3>Cake Pactory - BCIT Internal Project</h3>
-            <img src="./cake-factory.png" alt="Cake Pactory screenshot" width="400">
-            <p>developed a website that sells cakes and allows the user to manage customers and customer orders. Additionally, the admin has the ability to manage cake items, sizes, fillings, shapes, and toppings </p>
-            <p><a href="https://github.com/ceilidh-ashcroft-bcit/CakeFactory">GitHub</a></p>
-          </li>
-          <li>
-            <h3>Movie App - React Project</h3>
-            <img src="./movie-app.png" alt="Cake Pactory screenshot" width="400">
-            <p>This project is a movie introduction service that gives users access to the extensive TMDB movie library. This indicates that the website has access to a comprehensive database of movies from TMDB, which means that users can browse and explore a variety of movie information, including titles, genres, release dates, and ratings.</p>
-            <p><a href="https://reactavision.vercel.app/">React Avision</a></p>
-          </li>
-          <!-- <li>
-            <h3>Project Name</h3>
-            <p>A brief description of the project.</p>
-            <p><a href="#">Live Demo</a></p>
-          </li> -->
-        </ul>
-      </section>
-      
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>Languages   : C#, Java, PHP, HTML, CSS, JavaScript, jQuery, SQL, Swift, Python</li>
-          <li>Frameworks  : ASP.NET Core (Web API and MVC), Android, iOS, Angular, Node.js, React</li>
-          <li>Databases   : MS SQL Server, MySQL, MongoDB, CockroachDB</li>
-          <li>Tools       : Amazon Web Services, Photoshop, GitHub</li>
-        </ul>
-      </section>
+              <div class = "item">
+                <div class = "item-text">
+                  <span>Java</span>
+                  <span class = "w-75">75%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-75"></div>
+                </div>
+              </div>
+
+              <div class = "item">
+                <div class = "item-text">
+                  <span>ASP.NET Core (Web API and MVC)</span>
+                  <span class = "w-80">80%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-80"></div>
+                </div>
+              </div>
+
+              <div class = "item">
+                <div class = "item-text">
+                  <span>HTML/CSS</span>
+                  <span class = "w-75">75%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-75"></div>
+                </div>
+              </div>
+
+              <div class = "item">
+                <div class = "item-text">
+                  <span>React</span>
+                  <span class = "w-80">80%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-80"></div>
+                </div>
+              </div>
+
+              <div class = "item">
+                <div class = "item-text">
+                  <span>Angular</span>
+                  <span class = "w-60">60%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-60"></div>
+                </div>
+              </div>
+
+              <div class = "item">
+                <div class = "item-text">
+                  <span>Python</span>
+                  <span class = "w-70">70%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-70"></div>
+                </div>
+              </div>
+              
+              <div class = "item">
+                <div class = "item-text">
+                  <span>MS SQL Server</span>
+                  <span class = "w-80">80%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-80"></div>
+                </div>
+              </div>
+
+              <div class = "item">
+                <div class = "item-text">
+                  <span>Amazon Web Services</span>
+                  <span class = "w-60">60%</span>
+                </div>
+                <div class = "progress">
+                  <div class = "progress-bar w-60"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+    <!-- end of skills page -->
+
     
+        </main>
+      </div>
+    </section>
     <footer>
       <p>&copy; 2023 Donghwa Lisa Lee</p>
     </footer>
