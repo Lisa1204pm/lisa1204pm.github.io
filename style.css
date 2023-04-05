@@ -18,6 +18,7 @@ a {
 
 .form-container {
 position: relative;
+margin: 0;
 min-width: 400px;
 min-height: 500px;
 display: flex;
@@ -31,6 +32,7 @@ justify-content: center;
 
 .form {
 position: relative;
+margin: 0;
 width: 900px;
 height: 100%;
 padding: 20px;
@@ -39,7 +41,7 @@ padding: 20px;
 /* Header styles */
 header {
   color: #fff;
-  padding: 20px;
+  padding: 10px;
 }
 
 header h1 {
@@ -55,9 +57,6 @@ header h2 {
 }
 
 /* Main content styles */
-main {
-  padding: 20px;
-}
 
 main h2{
   color: #9b9a97;
