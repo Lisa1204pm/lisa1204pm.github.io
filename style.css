@@ -168,6 +168,7 @@ blockquote cite {
   margin: 1rem 0;
 }
 .skills .item{
+  height: 50px;
   padding: 0.5rem 0;
   margin: 0.3rem 0;
 }
