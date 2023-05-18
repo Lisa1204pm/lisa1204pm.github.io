@@ -17,25 +17,25 @@ a {
 }
 
 .form-container {
-position: relative;
-margin: 0;
-min-width: 400px;
-min-height: 500px;
-display: flex;
-justify-content: center;
+  position: relative;
+  margin: 0;
+  min-width: 400px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
 }
 .image-container {
-position: relative;
-display: flex;
-justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .form {
-position: relative;
-margin: 0;
-width: 900px;
-height: 100%;
-padding: 20px;
+  position: relative;
+  margin: 0;
+  width: 900px;
+  height: 100%;
+  padding: 20px;
 }
 
 /* Header styles */
@@ -64,7 +64,8 @@ main h2{
 
 .aboutInfo{
   display: flex;
-  align-items: center;;
+  flex-wrap : wrap;
+  align-items: center;
   margin-top: 40px;
 }
 
@@ -257,4 +258,19 @@ footer {
   font-size: 1.05rem;
   color: #d0d0d0;
   line-height: 1.7;
+}
+
+@media (min-width: 620px){
+  .wrapper {
+    margin: auto;
+    padding: auto;
+    min-width: 450px;
+  }
+  section h2 {
+    font-size: 40px;
+  }
+  
+  section h3 {
+    font-size: 30px;
+  }
 }
