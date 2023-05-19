@@ -268,10 +268,10 @@ footer {
     padding: 0;
   }
   header h1{
-    font-size: 3em;
+    font-size: 4em;
   }
   header h2{
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   .image-container img {
     max-width: 100%;
@@ -279,20 +279,20 @@ footer {
   }
 
   p{
-    font-size: 1em;
+    font-size: 1.4em;
   }
   .cta-button{
     font-size: 1em;
   }
 
   li{
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   main h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
   main h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   .skillContents {
     font-size: 1.4em;
@@ -305,6 +305,6 @@ footer {
     font-size: 1.5em;
   }
   footer p{
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
